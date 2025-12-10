@@ -132,11 +132,13 @@ Change these in the JavaScript initialization at the bottom of the HTML file.
 
 ## Tips for Presenting
 
-1. Test all audio files before presenting
-2. Check video playback on your system
-3. Use fullscreen mode (F key) for best experience
-4. Practice transitions between slides
-5. Have fun with the dystopian theme!
+1. **Embrace the humor**: The "Sanitation Engineer" angle is tongue-in-cheek - lean into it
+2. **Know your features**: Each slide highlights real product capabilities
+3. **Test all media**: Audio, videos, and transitions before presenting
+4. **Use fullscreen mode**: Press F for immersive experience
+5. **Customize contact info**: Update the CTA slide with your actual details
+6. **Practice the delivery**: Balance the dystopian humor with genuine product value
+7. **Be ready for questions**: Have detailed feature info and pricing ready
 
 ## File Structure
 
@@ -165,9 +167,32 @@ Change these in the JavaScript initialization at the bottom of the HTML file.
 - Check JavaScript console for errors
 - Ensure JavaScript is enabled in browser
 
+## Customizing Contact Information
+
+Update the Call to Action and Thank You slides with your actual contact details:
+
+1. Search for `info@robotorchestration.com` in the HTML file
+2. Replace with your actual email address
+3. Update `www.robotorchestration.com` with your website
+4. Change `1-800-OVERLORD` to your real phone number
+5. Add your company name and branding as needed
+
+## Product Features Highlighted
+
+This presentation covers all major orchestration features:
+- **Fleet Orchestration**: Multi-site management, coordination, priority queuing
+- **Agent Tasking**: Task assignment, tracking, automation
+- **Location Management**: GPS tracking, geofencing, heat maps
+- **Power Management**: Charging schedules, battery monitoring, alerts
+- **Software Upgrades**: OTA updates, version control, rollback
+- **Asset Management**: Hardware tracking, maintenance logs, lifecycle
+- **Monitoring**: Real-time dashboard, alerts, multi-monitor support
+- **Analytics**: Performance metrics, ROI calculations, reporting
+- **Integrations**: RESTful API, webhooks, third-party connectors
+
 ## Credits
 
 Created with Reveal.js - The HTML Presentation Framework
 https://revealjs.com/
 
-Dystopian theme and robot overlord content: Custom designed for maximum oppression vibes.
+Dystopian theme and robot overlord content: Custom designed for product presentations with personality.
