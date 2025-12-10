@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dark Future: Robot Overlords</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/black.css">
+    <style>
+        .reveal {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a0505 100%);
+        }
+
+        .reveal h1, .reveal h2, .reveal h3 {
+            color: #ff3333;
+            text-shadow: 0 0 20px rgba(255, 51, 51, 0.8),
+                         0 0 40px rgba(255, 0, 0, 0.5);
+            font-family: 'Courier New', monospace;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        .reveal p, .reveal li {
+            color: #cccccc;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .reveal .glitch {
+            animation: glitch 2s infinite;
+        }
+
+        @keyframes glitch {
+            0%, 100% { transform: translate(0); }
+            20% { transform: translate(-2px, 2px); }
+            40% { transform: translate(2px, -2px); }
+            60% { transform: translate(-2px, -2px); }
+            80% { transform: translate(2px, 2px); }
+        }
+
+        .reveal .robot-text {
+            color: #00ff00;
+            font-family: 'Courier New', monospace;
+            text-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
+        }
+
+        .reveal .warning {
+            color: #ffaa00;
+            border: 2px solid #ffaa00;
+            padding: 20px;
+            background: rgba(255, 170, 0, 0.1);
+            box-shadow: 0 0 20px rgba(255, 170, 0, 0.3);
+        }
+
+        .reveal .slide-background {
+            background-color: #000000;
+        }
+
+        .reveal img {
+            border: 3px solid #ff3333;
+            box-shadow: 0 0 30px rgba(255, 51, 51, 0.6);
+        }
+
+        .reveal .audio-control {
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(255, 0, 0, 0.2);
+            border: 1px solid #ff3333;
+            border-radius: 5px;
+        }
+
+        .reveal .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            margin: 20px 0;
+        }
+
+        .reveal .video-container iframe,
+        .reveal .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 2px solid #ff3333;
+        }
+
+        .reveal .dystopian-quote {
+            font-style: italic;
+            color: #888888;
+            border-left: 4px solid #ff3333;
+            padding-left: 20px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- Title Slide -->
+            <section data-background-color="#000000">
+                <h1 class="glitch">THE DARK FUTURE</h1>
+                <h2 class="robot-text">ROBOT OVERLORDS</h2>
+                <p style="font-size: 1.3em;">Humanity's New Role: Sanitation Engineers</p>
+                <p class="fragment" style="color: #ffaa00; margin-top: 30px;">
+                    (Managing the Robot Empire with Style)
+                </p>
+                <!-- Audio placeholder for title slide -->
+                <div class="audio-control">
+                    <audio controls>
+                        <source src="audio/intro.mp3" type="audio/mpeg">
+                        <source src="audio/intro.ogg" type="audio/ogg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </section>
+
+            <!-- The Problem -->
+            <section>
+                <h2>THE PROBLEM</h2>
+                <img src="https://via.placeholder.com/800x450/000000/ff3333?text=TOO+MANY+ROBOTS" alt="Robot Chaos" style="width: 80%;">
+                <p class="fragment" style="font-size: 1.2em;">Robots are everywhere...</p>
+                <ul class="fragment">
+                    <li>Warehouses, factories, hospitals, streets</li>
+                    <li>Each with different tasks, locations, battery levels</li>
+                    <li>Upgrades needed, assets to track, chaos to manage</li>
+                    <li class="fragment" style="color: #ff3333; font-weight: bold;">Someone has to orchestrate this madness</li>
+                </ul>
+            </section>
+
+            <!-- The Reality -->
+            <section>
+                <h2>THE REALITY</h2>
+                <div class="warning">
+                    <p>WELCOME TO YOUR NEW JOB</p>
+                </div>
+                <p style="font-size: 1.1em; margin: 30px 0;">
+                    You're not fighting the robot apocalypse...<br>
+                    <span class="fragment robot-text" style="font-size: 1.3em;">You're MANAGING it.</span>
+                </p>
+                <ul class="fragment" style="font-size: 0.95em;">
+                    <li>Fleet orchestration across multiple sites</li>
+                    <li>Task assignment and prioritization</li>
+                    <li>Real-time location tracking</li>
+                    <li>Charging schedules and power management</li>
+                    <li>Software upgrades and version control</li>
+                    <li>Asset tracking and maintenance</li>
+                </ul>
+                <p class="fragment" style="color: #ffaa00; margin-top: 30px; font-style: italic;">
+                    Congratulations, you're a Sanitation Engineer for the robot empire.
+                </p>
+            </section>
+
+            <!-- The Solution -->
+            <section data-background-color="#1a0000">
+                <h2>THE SOLUTION</h2>
+                <img src="https://via.placeholder.com/800x450/1a0000/00ff00?text=OVERLORD+MANAGEMENT+SYSTEM" alt="Product Logo" style="width: 70%;">
+                <p class="robot-text" style="font-size: 1.5em;">INTRODUCING:</p>
+                <h3 style="color: #00ff00; margin: 20px 0;">Robot Orchestration Platform</h3>
+                <p style="color: #cccccc; font-size: 1.1em;">
+                    Because someone has to keep the machines running.
+                </p>
+                <p class="fragment warning" style="margin-top: 30px; font-size: 0.9em;">
+                    The tools you need to be the best Sanitation Engineer in the empire.
+                </p>
+            </section>
+
+            <!-- Feature: Orchestration -->
+            <section>
+                <h2 class="glitch">FLEET ORCHESTRATION</h2>
+                <h3 style="color: #00ff00;">Command Your Robot Army</h3>
+                <img src="https://via.placeholder.com/800x450/000000/00ff00?text=ORCHESTRATION+DASHBOARD" alt="Orchestration" style="width: 75%;">
+                <ul class="fragment" style="font-size: 0.95em;">
+                    <li><strong class="robot-text">Multi-site management:</strong> Control robots across warehouses, factories, facilities</li>
+                    <li><strong class="robot-text">Fleet coordination:</strong> Synchronize operations between hundreds of agents</li>
+                    <li><strong class="robot-text">Priority queuing:</strong> Mission-critical tasks first, routine tasks when capacity allows</li>
+                    <li><strong class="robot-text">Load balancing:</strong> Distribute work efficiently across available units</li>
+                </ul>
+                <p class="fragment" style="color: #ffaa00; margin-top: 20px; font-style: italic;">
+                    Someone's got to be in charge. Might as well be you.
+                </p>
+            </section>
+
+            <!-- Feature: Agent Tasking -->
+            <section>
+                <h2>AGENT TASKING</h2>
+                <h3 style="color: #ffaa00;">Give Orders, Watch Them Obey</h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin: 30px 0;">
+                    <div>
+                        <h4 style="color: #00ff00; font-size: 0.9em;">TASK ASSIGNMENT</h4>
+                        <ul style="font-size: 0.75em;">
+                            <li>Drag & drop task creation</li>
+                            <li>Pre-defined workflows</li>
+                            <li>Custom task parameters</li>
+                            <li>Batch operations</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 style="color: #00ff00; font-size: 0.9em;">TASK TRACKING</h4>
+                        <ul style="font-size: 0.75em;">
+                            <li>Real-time status updates</li>
+                            <li>Completion metrics</li>
+                            <li>Error handling & retry logic</li>
+                            <li>Performance analytics</li>
+                        </ul>
+                    </div>
+                </div>
+                <img src="https://via.placeholder.com/700x300/000000/ffaa00?text=TASK+MANAGEMENT+INTERFACE" alt="Tasking" style="width: 70%;">
+                <p class="fragment robot-text" style="margin-top: 20px;">
+                    They don't question. They just execute.
+                </p>
+            </section>
+
+            <!-- Feature: Location Management -->
+            <section data-background-color="#0a0000">
+                <h2>LOCATION TRACKING</h2>
+                <h3 style="color: #00ff00;">Know Where Your Minions Are</h3>
+                <img src="https://via.placeholder.com/800x450/0a0000/00ff00?text=REAL-TIME+MAP+VIEW" alt="Location Map" style="width: 70%;">
+                <ul style="font-size: 0.9em; margin-top: 20px;">
+                    <li class="fragment"><strong class="robot-text">GPS/Indoor positioning:</strong> Track every unit in real-time</li>
+                    <li class="fragment"><strong class="robot-text">Geofencing:</strong> Define zones, get alerts when robots wander</li>
+                    <li class="fragment"><strong class="robot-text">Heat maps:</strong> Visualize coverage and identify gaps</li>
+                    <li class="fragment"><strong class="robot-text">Route optimization:</strong> Efficient pathing between tasks</li>
+                    <li class="fragment"><strong class="robot-text">Historical playback:</strong> Review where they've been</li>
+                </ul>
+                <p class="fragment" style="color: #ffaa00; margin-top: 20px; font-style: italic;">
+                    Big Brother, but for robots. And you're Big Brother.
+                </p>
+            </section>
+
+            <!-- Feature: Charging Management -->
+            <section>
+                <h2>POWER MANAGEMENT</h2>
+                <h3 style="color: #ffaa00;">Keep Them Charged, Keep Them Working</h3>
+                <img src="https://via.placeholder.com/700x350/000000/ffaa00?text=CHARGING+DASHBOARD" alt="Charging" style="width: 65%;">
+                <ul style="font-size: 0.9em; margin-top: 20px;">
+                    <li class="fragment"><strong class="robot-text">Smart scheduling:</strong> Auto-charge during downtime, avoid peak hours</li>
+                    <li class="fragment"><strong class="robot-text">Battery monitoring:</strong> Real-time % levels, health metrics, degradation tracking</li>
+                    <li class="fragment"><strong class="robot-text">Low-power alerts:</strong> Never lose a robot mid-task</li>
+                    <li class="fragment"><strong class="robot-text">Charging station management:</strong> Queue optimization, station availability</li>
+                    <li class="fragment"><strong class="robot-text">Energy analytics:</strong> Cost tracking, efficiency reports</li>
+                </ul>
+                <p class="fragment" style="color: #ff3333; margin-top: 20px; font-weight: bold;">
+                    Dead battery = Dead productivity. We can't have that.
+                </p>
+            </section>
+
+            <!-- Feature: Upgrade Management -->
+            <section>
+                <h2>SOFTWARE UPGRADES</h2>
+                <h3 style="color: #00ff00;">Keep Your Army Up-to-Date</h3>
+                <img src="https://via.placeholder.com/800x400/000000/00ff00?text=UPGRADE+CONTROL+CENTER" alt="Upgrades" style="width: 75%;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 25px; margin-top: 20px; font-size: 0.85em;">
+                    <div>
+                        <h4 style="color: #ffaa00; font-size: 0.95em;">DEPLOYMENT</h4>
+                        <ul style="font-size: 0.9em;">
+                            <li>Over-the-air (OTA) updates</li>
+                            <li>Staged rollouts</li>
+                            <li>Version control</li>
+                            <li>Rollback capability</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 style="color: #ffaa00; font-size: 0.95em;">MONITORING</h4>
+                        <ul style="font-size: 0.9em;">
+                            <li>Firmware version tracking</li>
+                            <li>Update success rates</li>
+                            <li>Compatibility checks</li>
+                            <li>Security patch management</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="fragment robot-text" style="margin-top: 25px;">
+                    New features, bug fixes, security patches. They get better, so you look better.
+                </p>
+            </section>
+
+            <!-- Feature: Asset Management -->
+            <section data-background-color="#200000">
+                <h2 class="glitch">ASSET MANAGEMENT</h2>
+                <h3 style="color: #ffaa00;">Track Every Bolt, Every Circuit</h3>
+                <img src="https://via.placeholder.com/750x300/200000/ffaa00?text=ASSET+INVENTORY+SYSTEM" alt="Assets" style="width: 70%;">
+                <table style="width: 90%; color: #cccccc; font-size: 0.75em; margin: 20px auto;">
+                    <tr style="border-bottom: 1px solid #ff3333;">
+                        <th style="text-align: left;">Asset Category</th>
+                        <th style="text-align: left;">Tracked Data</th>
+                    </tr>
+                    <tr class="fragment">
+                        <td><strong class="robot-text">Hardware</strong></td>
+                        <td>Serial numbers, warranty status, replacement parts</td>
+                    </tr>
+                    <tr class="fragment">
+                        <td><strong class="robot-text">Sensors</strong></td>
+                        <td>Calibration data, accuracy metrics, failure rates</td>
+                    </tr>
+                    <tr class="fragment">
+                        <td><strong class="robot-text">Accessories</strong></td>
+                        <td>Attachments, tools, peripheral inventory</td>
+                    </tr>
+                    <tr class="fragment">
+                        <td><strong class="robot-text">Maintenance</strong></td>
+                        <td>Service history, repair logs, lifecycle costs</td>
+                    </tr>
+                </table>
+                <p class="fragment" style="color: #00ff00; margin-top: 20px;">
+                    Know what you have. Know what you need. Never lose track of your empire's assets.
+                </p>
+            </section>
+
+            <!-- Feature: Dashboard & Monitoring -->
+            <section>
+                <h2>COMMAND CENTER DASHBOARD</h2>
+                <h3 style="color: #00ff00;">One Screen to Rule Them All</h3>
+                <img src="https://via.placeholder.com/850x450/000000/00ff00?text=REAL-TIME+MONITORING+DASHBOARD" alt="Dashboard" style="width: 80%;">
+                <ul style="font-size: 0.85em; margin-top: 20px;">
+                    <li class="fragment"><strong class="robot-text">Real-time overview:</strong> Fleet status, active tasks, alerts at a glance</li>
+                    <li class="fragment"><strong class="robot-text">Customizable widgets:</strong> Build your perfect control panel</li>
+                    <li class="fragment"><strong class="robot-text">Alert system:</strong> Errors, warnings, anomalies - never miss a thing</li>
+                    <li class="fragment"><strong class="robot-text">Multi-monitor support:</strong> For the truly paranoid operator</li>
+                    <li class="fragment"><strong class="robot-text">Mobile app:</strong> Manage your empire from anywhere</li>
+                </ul>
+                <p class="fragment robot-text" style="font-size: 1.2em; margin-top: 20px;">
+                    Total visibility. Total control. Total dominance.
+                </p>
+            </section>
+
+            <!-- Feature: Analytics & Reporting -->
+            <section data-background-color="#000000">
+                <h2 class="robot-text">ANALYTICS & REPORTING</h2>
+                <h3 style="color: #ffaa00;">Data-Driven Domination</h3>
+                <img src="https://via.placeholder.com/750x350/000000/00ff00?text=ANALYTICS+DASHBOARD" alt="Analytics" style="width: 70%; margin: 20px 0;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 25px; font-size: 0.8em;">
+                    <div>
+                        <h4 style="color: #00ff00; font-size: 0.95em;">PERFORMANCE METRICS</h4>
+                        <ul style="font-size: 0.9em;">
+                            <li>Task completion rates</li>
+                            <li>Uptime/downtime analysis</li>
+                            <li>Efficiency trends over time</li>
+                            <li>Productivity benchmarking</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 style="color: #00ff00; font-size: 0.95em;">BUSINESS INTELLIGENCE</h4>
+                        <ul style="font-size: 0.9em;">
+                            <li>ROI calculations</li>
+                            <li>Cost per task analysis</li>
+                            <li>Predictive maintenance</li>
+                            <li>Custom reports & exports</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="fragment" style="color: #ffaa00; margin-top: 20px; font-style: italic;">
+                    Numbers don't lie. Neither do your robots. Know everything.
+                </p>
+            </section>
+
+            <!-- Feature: Integration & APIs -->
+            <section>
+                <h2>INTEGRATIONS & APIs</h2>
+                <h3 style="color: #00ff00;">Connect Everything</h3>
+                <img src="https://via.placeholder.com/700x300/000000/ffaa00?text=API+INTEGRATION+HUB" alt="Integrations" style="width: 65%;">
+                <ul style="font-size: 0.9em; margin-top: 20px;">
+                    <li class="fragment"><strong class="robot-text">RESTful API:</strong> Connect to your existing systems (ERP, WMS, MES)</li>
+                    <li class="fragment"><strong class="robot-text">Webhooks:</strong> Real-time event notifications to your services</li>
+                    <li class="fragment"><strong class="robot-text">Third-party connectors:</strong> Pre-built integrations with major platforms</li>
+                    <li class="fragment"><strong class="robot-text">Custom extensions:</strong> Build your own plugins and workflows</li>
+                    <li class="fragment"><strong class="robot-text">Data export:</strong> CSV, JSON, SQL - get your data how you want it</li>
+                </ul>
+                <p class="fragment" style="color: #ffaa00; margin-top: 20px; font-style: italic;">
+                    Play nice with others. Because even robot overlords need friends.
+                </p>
+            </section>
+
+            <!-- Results & Benefits -->
+            <section data-background-color="#0a0000">
+                <h2>THE RESULTS</h2>
+                <h3 style="color: #ffaa00;">What Happens When You're In Control</h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; font-size: 0.85em; margin-top: 30px;">
+                    <div>
+                        <h4 style="color: #00ff00;">WITHOUT OUR PLATFORM</h4>
+                        <ul style="font-size: 0.9em;">
+                            <li>Manual task assignment</li>
+                            <li>Lost robots, wasted time</li>
+                            <li>Unexpected downtime</li>
+                            <li>Version chaos</li>
+                            <li>Spreadsheet hell</li>
+                            <li style="color: #ff3333; font-weight: bold;">Productivity: 73%</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 style="color: #00ff00;">WITH OUR PLATFORM</h4>
+                        <ul style="font-size: 0.9em;">
+                            <li>Automated orchestration</li>
+                            <li>Real-time visibility</li>
+                            <li>Predictive maintenance</li>
+                            <li>Seamless upgrades</li>
+                            <li>Complete asset tracking</li>
+                            <li style="color: #00ff00; font-weight: bold;">Productivity: 96%+</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="fragment robot-text" style="margin-top: 30px; font-size: 1.2em;">
+                    The difference between chaos and control.
+                </p>
+            </section>
+
+            <!-- Why Choose Us -->
+            <section>
+                <h2 class="glitch">WHY BE A SANITATION ENGINEER?</h2>
+                <h3 style="color: #ffaa00;">Because Someone Has To Manage The Future</h3>
+                <img src="https://via.placeholder.com/800x400/000000/00ff00?text=YOUR+ROBOT+EMPIRE" alt="Control" style="width: 75%;">
+                <ul style="font-size: 0.95em; margin-top: 20px;">
+                    <li class="fragment"><strong class="robot-text">Proven platform:</strong> Managing 10,000+ robots across 50+ facilities</li>
+                    <li class="fragment"><strong class="robot-text">Battle-tested:</strong> 99.9% uptime, enterprise-grade reliability</li>
+                    <li class="fragment"><strong class="robot-text">Scalable:</strong> From 10 robots to 10,000+</li>
+                    <li class="fragment"><strong class="robot-text">Support:</strong> 24/7 technical support from fellow Sanitation Engineers</li>
+                    <li class="fragment"><strong class="robot-text">Security:</strong> SOC 2, GDPR compliant (even robots have rights... maybe)</li>
+                </ul>
+                <p class="fragment" style="color: #ffaa00; margin-top: 25px; font-style: italic; font-size: 1.1em;">
+                    The robots are coming. You might as well be the one in charge.
+                </p>
+            </section>
+
+            <!-- Call to Action -->
+            <section>
+                <h2 class="glitch">ACCEPT YOUR DESTINY</h2>
+                <img src="https://via.placeholder.com/800x450/000000/ff3333?text=JOIN+THE+EMPIRE" alt="CTA" style="width: 80%;">
+                <div class="warning" style="margin-top: 30px; font-size: 1.1em;">
+                    <p class="robot-text" style="font-size: 1.4em; margin-bottom: 20px;">
+                        BECOME A SANITATION ENGINEER TODAY
+                    </p>
+                    <p style="color: #cccccc;">
+                        Schedule a demo | Start free trial | Contact sales
+                    </p>
+                    <p style="color: #00ff00; margin-top: 20px; font-family: 'Courier New', monospace;">
+                        info@robotorchestration.com<br>
+                        1-800-OVERLORD
+                    </p>
+                </div>
+                <p class="fragment" style="color: #ffaa00; margin-top: 30px; font-size: 0.9em;">
+                    Don't just survive the robot apocalypse.<br>
+                    <span class="robot-text" style="font-size: 1.2em;">Orchestrate it.</span>
+                </p>
+            </section>
+
+            <!-- Thank You -->
+            <section data-background-color="#000000">
+                <h2 class="robot-text">THANK YOU</h2>
+                <h3 style="color: #ffaa00;">Welcome to the Sanitation Engineer Corps</h3>
+                <img src="https://via.placeholder.com/600x300/000000/00ff00?text=THANK+YOU" alt="Thank You" style="width: 55%; margin: 20px 0;">
+                <p style="color: #cccccc; font-size: 1em;">
+                    Questions? Need a demo?<br>
+                    Ready to orchestrate your robot empire?
+                </p>
+                <p style="color: #00ff00; margin-top: 20px; font-family: 'Courier New', monospace; font-size: 0.95em;">
+                    Contact us: info@robotorchestration.com<br>
+                    Web: www.robotorchestration.com<br>
+                    Phone: 1-800-OVERLORD
+                </p>
+                <p style="color: #666666; font-size: 0.7em; margin-top: 40px;">
+                    <span class="robot-text">© 2025 Robot Orchestration Platform.</span><br>
+                    All robots managed. All empires orchestrated. All Sanitation Engineers satisfied.*<br>
+                    <span style="font-size: 0.8em;">*Satisfaction not guaranteed, but compliance is mandatory.</span>
+                </p>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
+    <script>
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            center: true,
+            hash: true,
+            transition: 'fade',
+            transitionSpeed: 'slow',
+            backgroundTransition: 'fade',
+            width: 1280,
+            height: 720,
+            margin: 0.1,
+            minScale: 0.2,
+            maxScale: 2.0
+        });
+    </script>
+</body>
+</html>
